@@ -8,4 +8,5 @@ RUN cd /usr/local && \
 
 # Add it to the path
 ENV PATH $PATH:/usr/local/go/bin
+ENV HPESS_ENV go
 RUN echo "export PATH=$PATH:/usr/local/go/bin" > /etc/profile.d/00Go.sh
