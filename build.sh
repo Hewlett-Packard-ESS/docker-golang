@@ -1,1 +1,1 @@
-docker build -t hpess/go:latest .
+docker build -t hpess/go:master .
